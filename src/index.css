@@ -1,0 +1,23 @@
+body{
+    background-image: url('./images/fundo.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo-container img{
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+}
